@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Commissioner", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: black;
+}
+h1 {
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid silver; /*полоса*/
+}
+/*picture*/
+.picture {
+  width: 100%;
+  text-align: center; /*выравнивание текста по середине*/
+  padding: 20px 0; //сверху снизу по 0
+  margin: 0 auto;
+}
+img {
+  width: 700px;
+  height: 500px;
+}
+/*Text*/
+.discription {
+  padding: 50px 0; //сверху снизу по 0
+  width: 100%;
+  border-bottom: 1px solid silver; /*полоса*/
+}
+.main-text {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center; /*выравнивание текста по середине*/
+  line-height: 25px; /* расстояние между строк*/
+  letter-spacing: 2px;
+}
+
+/*audio*/
+.audio {
+  background-color: black;
+  text-align: center; /*выравнивание текста по середине*/
+  padding: 20px 0; //сверху снизу по 0
+}
+button {
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #556b2f;
+}
+
+/*video*/
+.video {
+  padding: 50px 0; //сверху снизу по 0
+  width: 100%;
+  border-bottom: 1px solid silver; /*полоса*/
+  text-align: center; /*выравнивание текста по середине*/
+  border-bottom: 1px solid silver; /*полоса*/
+}
+.content-video {
+  width: 700px;
+  height: 500px;
+  box-shadow: 0 0 20px 10px grey;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: black;
+  text-align: center; /*выравнивание текста по середине*/
+  padding: 50px 0; //сверху снизу по 0
+}
+.footer-text {
+  color: white;
+}
